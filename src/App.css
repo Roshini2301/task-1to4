@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Global Styles */
 body {
   font-family: 'Roboto', sans-serif;
@@ -148,4 +149,97 @@ h2 {
   .product-item span {
     font-size: 1rem;
   }
+=======
+/* General Container */
+.weather-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-left:500px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Soft grey background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Title */
+h1 {
+  font-size: 3em;
+  color: #e74c3c; /* Bright Red for the title */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #16a085; /* Teal color for subtitle */
+}
+
+/* City List (Arranged Vertically) */
+.city-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.city-item {
+  margin: 12px 0; /* Vertical margin for spacing */
+  padding: 14px 30px;
+  background-color: #1abc9c; /* Teal background for city items */
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 250px; /* Set a fixed width for buttons */
+}
+
+.city-item:hover {
+  background-color: #16a085; /* Darker teal on hover */
+  transform: scale(1.05); /* Slightly enlarge the item */
+}
+
+/* Error Message */
+.error {
+  color: #e74c3c; /* Red color for errors */
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Weather Details */
+.weather-details {
+  margin-top: 30px;
+  text-align: left;
+  display: inline-block;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  width: 300px;
+}
+
+.weather-details h2 {
+  font-size: 1.8em;
+  color: #16a085; /* Teal color for heading */
+}
+
+.weather-details p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #7f8c8d; /* Subtle text color for details */
+}
+
+.weather-details p:first-of-type {
+  font-weight: bold;
+}
+
+.weather-details p span {
+  font-weight: normal;
+  color: #34495e; /* Slightly darker color for values */
+>>>>>>> 16e2b0cc783658f52b20d7592df30dfbdc155904
 }
