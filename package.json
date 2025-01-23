@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "task10mrg2",
-=======
-  "name": "project2",
->>>>>>> 16e2b0cc783658f52b20d7592df30dfbdc155904
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,10 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
     "axios": "^1.7.9",
->>>>>>> 16e2b0cc783658f52b20d7592df30dfbdc155904
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
