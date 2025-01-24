@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "netflixclone",
-=======
-  "name": "task10mrg2",
->>>>>>> 8f946a1161eb4c6df7255be63c95b3cdc906a819
+  "name": "projectmorning",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,10 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
-    "axios": "^1.7.9",
->>>>>>> 8f946a1161eb4c6df7255be63c95b3cdc906a819
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
