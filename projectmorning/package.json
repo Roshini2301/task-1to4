@@ -1,13 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "rolebased",
-=======
-<<<<<<< HEAD
-  "name": "netflixclone",
-=======
-  "name": "task10mrg2",
->>>>>>> 8f946a1161eb4c6df7255be63c95b3cdc906a819
->>>>>>> ca676d23969b5978c115641c5c92b386c9c17b4a
+  "name": "projectmorning",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,13 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    "axios": "^1.7.9",
->>>>>>> 8f946a1161eb4c6df7255be63c95b3cdc906a819
->>>>>>> ca676d23969b5978c115641c5c92b386c9c17b4a
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
