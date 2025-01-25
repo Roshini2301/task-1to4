@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,368 @@
 
 .read-the-docs {
   color: #888;
+=======
+<<<<<<< HEAD
+/* General Reset */
+=======
+<<<<<<< HEAD
+/* General styling */
+>>>>>>> ca676d23969b5978c115641c5c92b386c9c17b4a
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+<<<<<<< HEAD
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://i.pinimg.com/736x/1d/8d/ab/1d8dab6a69c3d4225cb0a3ccd5017711.jpg'); /* Replace with a high-resolution image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Add a dark overlay */
+  z-index: -1;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navigation bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004aad;
+  padding: 10px 20px;
+  color: white;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  width: 60px;
+  height: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar ul li:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  margin-top: 80px; /* Offset for fixed navbar */
+}
+
+header h1 {
+  color: #004aad;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Login Container */
+.login-container {
+  text-align: center;
+}
+
+.login-container button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #004aad;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #003080;
+}
+
+/* Login Form */
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-form h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #004aad;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #003080;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.back-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #333;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #ccc;
+}
+
+/* Profile Section */
+.profile {
+  text-align: center;
+}
+
+.profile h2 {
+  color: #004aad;
+}
+
+.profile p {
+  margin-top: 10px;
+=======
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: white;
+=======
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  margin-left: 900px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.App {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+>>>>>>> 8f946a1161eb4c6df7255be63c95b3cdc906a819
+}
+
+h1 {
+  font-size: 2.5rem;
+<<<<<<< HEAD
+  text-align: center;
+  color: #e50914;
+  margin-top: 20px;
+}
+
+/* Header */
+.app-header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Movie list */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-card {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.movie-description {
+  font-size: 0.9rem;
+  color: #ccc;
+  padding: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .movie-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+=======
+  color: #4a90e2;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+input[type='text'] {
+  width: 75%;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input[type='text']:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+.product-list, .cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item, .cart-item {
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.product-item:hover, .cart-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.product-item button, .cart-item button {
+  background-color: #e74c3c;
+}
+
+.product-item button:hover, .cart-item button:hover {
+  background-color: #c0392b;
+}
+
+.cart-item span:last-child {
+  font-weight: bold;
+  color: #4a90e2;
+>>>>>>> 8f946a1161eb4c6df7255be63c95b3cdc906a819
+>>>>>>> ca676d23969b5978c115641c5c92b386c9c17b4a
+>>>>>>> a4e975cc9d77effb9186d7f7c64435d47f424d6d
 }
